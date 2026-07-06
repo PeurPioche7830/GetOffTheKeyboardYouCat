@@ -1,4 +1,4 @@
-# GetOffTheKeyboardYouCat
+# Get Off The Keyboard, You Cat!
 Basically the mac app "cats lock" for broke and macless people
 
 Did your cat ever walk on your keyboard?
