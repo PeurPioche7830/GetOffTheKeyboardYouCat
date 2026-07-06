@@ -1,5 +1,5 @@
 # Get Off The Keyboard, You Cat!
-Basically the mac app "cats lock" for broke and macless people
+Basically the mac app "cats lock" but for broke and macless people
 
 Did your cat ever walk on your keyboard?
 Did you ever wish you could stop it from using your computer for you without having to be here to get it off your keyboard with your own hands?
