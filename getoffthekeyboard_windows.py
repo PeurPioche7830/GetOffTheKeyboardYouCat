@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
 
-
 def open_secondary_window():
     # Create cat protect window.
     secondary_window = tk.Toplevel()
@@ -22,7 +21,6 @@ def open_secondary_window():
     secondary_window.attributes('-topmost', 1, '-alpha',0.9)
     secondary_window.overrideredirect(1)
 
-    
     # Create a button to close (destroy) this window.
     button_close = ttk.Button(
         secondary_window,
@@ -50,6 +48,3 @@ button_open.place(relx=0.5, rely=0.5, anchor='center')
 
 # keep window open
 main_window.mainloop()
-
-
-
