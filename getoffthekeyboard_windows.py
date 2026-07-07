@@ -7,9 +7,21 @@ def open_secondary_window():
     secondary_window = tk.Toplevel()
     secondary_window.iconbitmap("cat.ico")
     secondary_window.title("Secondary Window")
-    secondary_window.geometry('1920x1080')
+    # Window size (i'll find a way to make this work on all monitor sizes later)
+    window_width = 1920
+    window_height = 1080
+    # get the screen dimension
+    screen_width = secondary_window.winfo_screenwidth()
+    screen_height = secondary_window.winfo_screenheight()
+    # find the center point
+    center_x = int(screen_width/2 - window_width / 2)
+    center_y = int(screen_height/2 - window_height / 2)
+    secondary_window.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
+    # options to make it all cleaner
     secondary_window.resizable(False,False)
     secondary_window.attributes('-topmost', 1, '-alpha',0.9)
+    secondary_window.overrideredirect(1)
+
     
     # Create a button to close (destroy) this window.
     button_close = ttk.Button(
@@ -38,3 +50,6 @@ button_open.place(relx=0.5, rely=0.5, anchor='center')
 
 # keep window open
 main_window.mainloop()
+
+
+
