@@ -8,3 +8,5 @@ Well don't worry, "Get off the keyboard, you cat!" is here to lock your computer
 Don't take this program too seriously, it's basically a coding exercise for me to learn python and tkinter without AI.
 
 You need Python and Tkinter to get the .py running.
+
+For now, this app is Windows only but porting to linux should be easy when the app is in an actually useful state.
