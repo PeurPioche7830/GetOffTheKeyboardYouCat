@@ -9,4 +9,4 @@ Don't take this program too seriously, it's basically a coding exercise for me t
 
 You need Python and Tkinter to get the .py running.
 
-Linux does lack some features, like transparency but i have no idea
+Linux does lack some features, like transparency but i have no idea how to implement them for now so yea
