@@ -4,7 +4,6 @@ from tkinter import ttk
 def open_secondary_window():
     # Create cat protect window.
     secondary_window = tk.Toplevel()
-    secondary_window.iconbitmap("cat.ico")
     secondary_window.title("Secondary Window")
     # Window size (i'll find a way to make this work on all monitor sizes later)
     window_width = 1920
@@ -32,11 +31,11 @@ def open_secondary_window():
 
 # Create the main window.
 main_window = tk.Tk()
-main_window.iconbitmap("cat.ico")
 main_window.geometry('400x200')
 main_window.title("Get off the Keyboard, you cat!")
+main_window.iconphoto(False, tk.PhotoImage(file='canvas.png'))
 main_window.resizable(False,False)
-label1 = tk.Label(main_window, text='Get off the keyboard, you cat!',bg='orange',fg='white')
+label1 = tk.Label(main_window, text='Get off the keyboard, you cat!',bg='orange',fg='white' )
 label1.pack()
 # Create the button to open the cat-proofing
 button_open = ttk.Button(
