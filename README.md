@@ -9,4 +9,4 @@ Don't take this program too seriously, it's basically a coding exercise for me t
 
 You need Python and Tkinter to get the .py running.
 
-For now, this app is Windows only but porting to linux should be easy when the app is in an actually useful state.
+Linux does lack some features, like transparency but i have no idea
