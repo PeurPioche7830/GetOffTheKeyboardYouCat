@@ -33,6 +33,7 @@ def open_secondary_window():
 main_window = tk.Tk()
 main_window.geometry('400x200')
 main_window.title("Get off the Keyboard, you cat!")
+main_window.iconphoto(False, tk.PhotoImage(file='canvas.png'))
 main_window.resizable(False,False)
 label1 = tk.Label(main_window, text='Get off the keyboard, you cat!',bg='orange',fg='white' )
 label1.pack()
