@@ -22,8 +22,10 @@ def open_secondary_window():
     secondary_window.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
     # options to make it all cleaner
     secondary_window.resizable(False,False)
-    secondary_window.attributes('-topmost', 1, '-alpha',0.9)
     secondary_window.overrideredirect(1)
+    secondary_window.attributes('-topmost', 1)
+    secondary_window.wait_visibility(secondary_window) # i must tell you all that i have sinned, i DID ask for claude's help for THIS line of code and this line only because stackoverflow was being a little too slow, i am so sorry. Every other line of code here was written by real human beings from the internet.
+    secondary_window.attributes('-alpha', 0.9)
     secondary_window.configure(bg=KindaBrown)
     # text
     label2 = tk.Label(secondary_window, text='Computer is currently locked',bg='#655552',fg='white', font=('Rubik', 40))
