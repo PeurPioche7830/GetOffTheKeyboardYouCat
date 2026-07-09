@@ -21,6 +21,3 @@ Well don't worry, "Get off the keyboard, you cat!" is here to lock your computer
 _Don't take this program too seriously, it's basically a coding exercise for me to learn python and tkinter without AI._
 
 _You need Python and Tkinter to get the .py running._
-
-_Linux does lack some features, like transparency but i have no idea how to implement them for now so yea_
-
